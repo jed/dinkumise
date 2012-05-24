@@ -5,7 +5,7 @@ dinkumise
 
 Keep ya JavaScripts Dinki-di!
 
-This is a repo that I attempted to live-code for [Web Directions Code '12](http://code12melb.webdirections.org/). I used it as a humorous example of how to use the various commands of npm.
+This is a repo that I attempted to live-code for [Web Directions Code '12](http://code12melb.webdirections.org/). I used it as a humorous example of how to use the various commands of npm, and how to develop responsibly in CoffeeScript by compiling before publishing.
 
 API
 ---
