@@ -2,6 +2,7 @@
   "author": "Jed Schmidt <tr@nslator.jp> (http://jed.is/)",
   "name": "dinkumise",
   "version": "1.0.0",
+  "description": "Keep ya JavaScripts Dinki-di!",
   "repository": {
     "type": "git",
     "url": "git://github.com/jed/dinkumise.git"
