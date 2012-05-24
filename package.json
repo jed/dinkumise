@@ -1,0 +1,25 @@
+{
+  "author": "Jed Schmidt <tr@nslator.jp> (http://jed.is/)",
+  "name": "dinkumise",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jed/dinkumise.git"
+  },
+  "dependencies": {
+    "falafel": "0.0.2"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.3.3",
+    "mocha": "~1.0.3"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "lib": "lib",
+  "scripts": {
+    "prepublish": "coffee -o lib/ -c src/",
+    "test": "coffee -o lib/ -c src/ && mocha lib/test.js -R spec"
+  }
+}
