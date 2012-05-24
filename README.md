@@ -12,8 +12,7 @@ API
 
 ### dinkumise
 
-This module exposes one function, `dinkumise`, which takes a string of JavaScript and replaces all American English literal `true` references with the more Aussie-friendly `!!"fair dinkum!"`.
-
+This module exposes one function, `dinkumise`, which takes a string of JavaScript and replaces all American English literal `true` references with the more Aussie-friendly `!!"fair dinkum"`, and `false` references with `!"fair dinkum"`
 ```javascript
 var assert = require("assert")
   , dinkumise = require("dinkumise")
