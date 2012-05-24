@@ -5,7 +5,22 @@ dinkumise
 
 Keep ya JavaScripts Dinki-di!
 
-This is a repo that I attempted to live-code for [Web Directions Code '12](http://code12melb.webdirections.org/). I'll be posting a list of links and pointers from the presentation here, so stay tuned.
+This is a repo that I attempted to live-code for [Web Directions Code '12](http://code12melb.webdirections.org/). I used it as a humorous example of how to use the various commands of npm.
+
+API
+---
+
+### dinkumise
+
+This module exposes one function, `dinkumise`, which takes a string of JavaScript and replaces all American English literal `true` references with the more Aussie-friendly `!!"fair dinkum!"`.
+
+```javascript
+var assert = require("assert")
+  , dinkumise = require("dinkumise")
+  , dinkumised = dinkumise("true === !false")
+
+assert.equal(dinkumised, '!!"fair dinkum" === !!"fair dinkum"')
+```
 
 Things I mentioned
 ------------------
